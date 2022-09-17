@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+    background-image: url(./images/portada\(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.fondo{
+    margin-top: 200px;
+}
+.titulo{
+   width: auto;
+   height: 150px;
+    background-color: rgba(128, 128, 128, 0.486);
+}
+.cards{
+    margin-top: 200px;
+    justify-content: space-around;
+}
+.direccion{
+    margin-top: 80px;
+    margin-bottom: 100px;
+    width: 500px;
+    height: 333px;
+    background-image: url(./images/pesas2.jpg);
+    border-radius: 50px;
+}
+.text-dir{
+    
+    padding-top: 80px;
+    margin-left: 130px;
+}
+.text-dir a{
+    text-decoration: none;
+}
+
+footer{display: flex;
+    background-color: black;
+    flex-direction: end;
+}
+
+footer ul li {
+    list-style-type: none; }
+
+    footer ul li a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 25px;
+        
+        }
+
+.btn-whatsapp {
+    display: block;
+    width: 70px;
+    height: 70px;
+    color: #fff;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 50%;
+    line-height: 80px;
+    text-align: center;
+    z-index: 999;
+    transition: height 2s, width 1s; }
+.btn-whatsapp:hover {
+    width: 100px;
+    height: 100px; }
