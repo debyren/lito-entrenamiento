@@ -75,6 +75,10 @@ footer ul li {
     height: 100px; }
 
 @media screen and (max-width: 480px){
+    body{
+        background-size: contain;
+        background-attachment: fixed;
+    }
     #cards{
         gap: 35px;
     }
