@@ -73,3 +73,15 @@ footer ul li {
 .btn-whatsapp:hover {
     width: 100px;
     height: 100px; }
+
+@media screen and (max-width: 480px){
+    #cards{
+        gap: 35px;
+    }
+    .direccion{
+        background-image: url(./images/pesas1-copia.jpg);
+        width: 380px;
+        height: 330px;
+    }
+    
+}
